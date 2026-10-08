@@ -5,7 +5,6 @@
 class Solution {
 public:
     std::vector<int> frequencySort(std::vector<int>& nums) {
-        // Step 1: Count the frequency of each number
         std::unordered_map<int, int> mp;
         for (int num : nums) {
             mp[num]++;
